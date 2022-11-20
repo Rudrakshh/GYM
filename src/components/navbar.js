@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import logo from "../images/logo.png"
+import logo from "../images/LOGO.jpeg"
 
 import {Link} from 'react-scroll'
 
@@ -29,6 +29,7 @@ function Navbar() {
                 <li><Link to='main'smooth={true} duration='1000ms'>HEADER</Link></li>
                 <li><Link to='features' smooth={true} duration='1000ms'>FEATURE</Link></li>
                 <li><Link to='presentaion' smooth={true} duration='1000ms'>OFFER</Link></li>
+                <li><Link to='boxes' smooth={true} duration='1000ms'>PLANS</Link></li>
                 <li><Link to='about' smooth={true} duration='1000ms'>ABOUT</Link></li>
                 <li><Link to='contact' smooth={true} duration='1000ms'>CONTACT</Link></li>
             </ul>

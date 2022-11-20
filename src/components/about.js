@@ -1,14 +1,18 @@
 import React from 'react';
-import abtimg from '../images/about.png'
+import abtimg from '../images/LAST.webp'
+import tickimage from '../images/tick2.webp';
 function about(){
     return(
         <div id='about'>
             <div className='about-img'>
-                <img src={abtimg} alt='' />
+                <img src={abtimg} alt='' className='abtimg1' />
             </div>
             <div className='about-text'>
-                <h1>KNOW MORE ABOUT US</h1>
-                <p>CONTACT US ANYTIME</p>
+                <h1>WHY CHOOSE US</h1>
+                <p> <img src={tickimage} alt="not found" /> OVER 230+ EXPERT COACHS</p>
+                <p> <img src={tickimage} alt="not found" /> TRAIN FASTER AND BETTER THAN BEFORE</p>
+                <p> <img src={tickimage} alt="not found" />1 FREE PROGRAM FOR NEW MEMBERS</p>
+                <p> <img src={tickimage} alt="not found" /> RELIABLE PARTNER</p>
                 <button>KNOW MORE</button>
             </div>
         </div>

@@ -8,7 +8,7 @@ function featurebox(props) {
             </div>
             <div className='a-b-text'>
                 <h2>{props.text}</h2>
-                <p></p>
+                <p>{props.last}</p>
             </div>
         </div>
     )

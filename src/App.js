@@ -5,6 +5,7 @@ import Features from './components/features';
 import Offer from './components/offer';
 import About from './components/about';
 import Contact from './components/contact';
+import Box from './components/boxes';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Features/>
       <Offer/>
+      <Box/>
       <About/>
       <Contact/>
     </div>

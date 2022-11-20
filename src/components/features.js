@@ -10,10 +10,10 @@ function features(){
         <div id="features">
             <h1>FEATURES</h1>
             <div className='a-container'>
-                <Featurebox image={fimage1} text="WEIGHT LIFTING"/>
-                <Featurebox image={fimage2} text="SPECIFIC MUSCLE"/>
-                <Featurebox image={fimage3} text="FLEX"/>
-                <Featurebox image={fimage4} text="CARDIO"/>
+                <Featurebox image={fimage1} text="WEIGHT LIFTING" last="IN THIS PROGRAM YOU WILL BE TRAINED TO IMPROVE YOUR STRENGTH THROUGH VARIOUS EXCERSISES."/>
+                <Featurebox image={fimage2} text="HEALTH FITNESS" last="this program is designes for those who excercises only for their body fitness." />
+                <Featurebox image={fimage3} text="FAT BURNING" last="this program is suitable for you who wants to get rid of your fat and lose their weight" />
+                <Featurebox image={fimage4} text="CARDIO" last="In this program, you are trained to do more sequential moves in range of 20 until 30 minutes." />
             </div>
         </div>
     )
